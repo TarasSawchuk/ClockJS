@@ -18,7 +18,7 @@ let clockFunc = () => {
       }
 
   let clockStr = `${hours} : ${minutes} : ${seconds}`,
-      colorStr = `# ${hours} ${minutes} ${seconds}`;
+      colorStr = `#${hours}${minutes}${seconds}`;
   
   clock.textContent = clockStr;
   color.textContent = `${colorStr} Hex address of color`;

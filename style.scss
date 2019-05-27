@@ -1,3 +1,6 @@
+$font-color: whitesmoke;
+$clock-size: 90px;
+
 main {
   display: flex;
   flex-direction: column;
@@ -9,12 +12,13 @@ main {
     flex-direction: column;
     align-items: center;
     #clock{
-      font-size: 70px;
+      color: $font-color;
+      font-size: $clock-size;
       font-weight: 800;
     }
     #color {
       font-size: 20px;
-      font-family: ;
+      color: $font-color;
     }
   }
 }
